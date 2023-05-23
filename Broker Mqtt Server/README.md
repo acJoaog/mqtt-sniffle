@@ -5,9 +5,11 @@ This section shows how to install the server and config your mosquitto.conf file
 Go to the official Eclipse Mosquitto website (https://mosquitto.org/download/) and select the installation for your current System.
 After the installation is complete you can config your mosquitto.conf file.
 
-# Basic Config in port 1883
+# mosquitto_sample
 This config uses port 1883 wich means no TLS security protocol, it is a simple connection but not safe.
 
-# Config in port 1883 and User and Password required
-This config uses port 1883, wich means no TLS security protocol, but require user and password to connect, it is a simple connection but not safe too.
+# mosquitto_basic
+This config uses port 1883, wich means no TLS security protocol, but require user and password to connect, it is a simple connection but not safe.
 
+# mosquitto_encrypted
+This config uses port 8883, wich means TLS security protocol active, is the safest way to use mqtt connection. Will require RSA signed certificates to allow connection.
