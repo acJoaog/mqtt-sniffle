@@ -1,4 +1,4 @@
-# Database Server and Schema
+# Database Server and Schema Generation
 
 # Server
 Install the MySQL workbench and server in mysql website https://dev.mysql.com/downloads/workbench/ and follow the product installation guide steps. Remeber to install Workbench and Server.
